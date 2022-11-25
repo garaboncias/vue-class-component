@@ -235,6 +235,13 @@ function componentFactory(Component) {
       return fn(options);
     });
     delete Component.__decorators__;
+  } // static properties
+
+
+  var components = Component.components;
+
+  if (components) {
+    options.components = components;
   } // find super
 
 

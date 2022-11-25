@@ -3,4 +3,3 @@ example/build.js
 example/build.js.map
 docs/.vuepress/dist
 test/test.build.js
-lib
